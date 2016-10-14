@@ -4,11 +4,54 @@
     box-sizing: border-box;
 }
 
+.clearfix:after {
+    content:"";
+    display:"table";
+    clear:"both";
+}
+
 body {
     color: #555;
     font-family: 'Lato', 'Arial', san-serif;
     font-size: 20px;
     font-weight: 300;
-    text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;   
+}
+
+.FenixDesignzHeader {
+    padding: 20px;
+}
+
+.header-menu {
+    padding: 20px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.product-images {
+    float:"left";
+    padding: 6px;
     
+}
+
+.header-text {
+    border: "1px solid #cccccc";
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.FenixDesignzHeader img {
+    height: 75px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+.face-image img {
+    margin-left: 30px;
+    height: 100px;
+    width: auto;
+    border-radius: 50%;
 }
